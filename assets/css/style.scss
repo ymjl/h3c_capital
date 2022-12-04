@@ -7,6 +7,10 @@
     opacity: 0.95;
 }
 
+.header-logo {
+    margin-right: 10px;
+}
+
 .is-active {
     font-weight: 600;
 }
@@ -46,18 +50,19 @@ a.navbar-item.is-active {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
 
     &::before {
-        filter: blur(0.15rem);
+        //filter: blur(0.15rem);
         background-image: url({{site.heroimage}});
         background-position: center;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 100% 100%;
         background-attachment: fixed;
         top: 0px;
         right: 0px;
         bottom: 0px;
         left: 0px;
+        //height: 100%;
         position: absolute;
-        opacity: 0.25;
+        opacity: 1;
         content: "";
     }
 }

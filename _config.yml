@@ -1,4 +1,4 @@
-# WhatATheme
+# H3C Capital
 markdown: kramdown
 
 # URL of the Site
@@ -7,47 +7,49 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: H3C Capital
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: Building and accelerating the future of Web 3.0
 # URL of Image of the Site
-site-image: /WhatATheme/assets/images/meta.jpg
+site-image: /assets/images/meta1.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
-# URL for the Image of custom Favicon
-favicon-url: 
+# URL for the Image of custom Favicon 
+favicon-url: /assets/images/favicon.png
+
+logo_white: /assets/images/h3c_no_white.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: /assets/images/meta1.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+email: contact@h3c.capital
+facebook_username:
+twitter_username: h3ccapital
+instagram_username: 
+linkedin_username: h3ccapital
+github_username:  h3ccapital
+youtube_channel_id: 
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 
 
 # Google Analytics
-google-analytics: UA-163806439-1
+google-analytics: G-0XY6D583JC
 
 # Disqus
-disqus-shortname: thedevslot
+disqus-shortname: H3C Capital
 
 # Name of the Author
-author-name: TheDevsLot
+author-name: H3C Capital
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: /assets/images/favicon.png
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: H3C Capital is a venture firm that dedicates to the future of Web3. Our team invests in breakthrough ideas, ranging from Blockchain infrastructure to the Metaverse applications. We define ourself as a reliable partner to our portfolio companies, helping them course their way through Web3 world with funding, advising and partnership outreach.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://twitter.com/h3ccapital
 
 # SASS
 sass:
