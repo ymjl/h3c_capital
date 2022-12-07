@@ -1,0 +1,40 @@
+
+.C-h2 {
+  font-family: FreightDispBlack;
+  font-weight: 400;
+  line-height: 115px;
+  color: #0F0F0F;
+  max-width: 888px;
+  position: relative;
+}
+
+.C-h2 span {
+  z-index: 2;
+  position: relative;
+}
+
+
+.C-h2-1 {
+  font-size: 100px;
+}
+
+
+.C-h2-2 {
+  font-size: 80px;
+  display: block;
+  margin: 0 auto;
+  max-width: max-content;
+  font-family: Gotham-bold;
+}
+
+
+
+
+/* 
+*======================================================media===============================================================
+*/
+@media screen and (max-width:1919px) {}
+
+
+
+@media screen and (max-width:480px) {}

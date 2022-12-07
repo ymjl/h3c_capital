@@ -358,3 +358,191 @@ a.navbar-item.is-active {
         }
     }
 }
+
+
+
+.home2 {
+	background: #FBFBFB;
+}
+
+.home2 .wrap {
+	padding: 165px 0 147px;
+}
+
+.home2 .swiper-container {
+	width: 100%;
+	margin-top: 100px;
+}
+
+.home2 .swiper-slide {
+	border-radius: 7px;
+	overflow: hidden;
+}
+
+.home2 .swiper-slide .pic,
+.home2 .swiper-slide .pic img {
+	width: 100%;
+}
+
+.home2 .intr {
+	background: linear-gradient(360deg, #262931 0%, rgba(91, 91, 91, 0) 100%);
+	padding: 55px 60px;
+	align-items: flex-start;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.home2 .intr .intr-pic {
+	height: 55px;
+	width: auto;
+	transition: all ease-in 0.3s;
+}
+
+.home2 .swiper-slide:hover .intr .intr-pic {
+	margin-bottom: 20px;
+}
+
+.home2 .intr .intr-pic img {
+	height: 100%;
+}
+
+.home2 .intr p {
+	font-size: 34px;
+	font-family: Gotham;
+	font-weight: bold;
+	line-height: 30px;
+	color: #FFFFFF;
+	max-width: 239px;
+}
+
+
+@keyframes point {
+	from {
+		transform: translate(-50%, 50%) scale(0.2);
+	}
+
+	to {
+		transform: translate(-50%, 50%) scale(1);
+	}
+}
+
+
+.home2{
+	overflow: hidden;
+}
+@media screen and (max-width:1919px) {}
+
+@media screen and (max-width:1519px) {
+
+
+	.C-h2-2 {
+		font-size: 60px;
+	}
+
+
+
+	.home4 .prev {
+		right: 100%;
+	}
+
+	.home4 .next {
+		left: 100%;
+	}
+
+	.home4 .swiper-slide .intr h2 {
+		font-size: 26px;
+	}
+}
+
+@media screen and (max-width:1366px) {
+
+	.C-h2-2 {
+		font-size: 50px;
+	}
+
+	.home2 .intr p {
+		font-size: 24px;
+	}
+}
+
+@media screen and (max-width:1250px) {
+	.pointer-events-none {
+		display: none;
+	}
+
+}
+
+@media screen and (max-width:991px) {
+	.home2 .wrap {
+		padding: 85px 0 87px;
+	}
+
+
+
+	.home4 .wrap {
+		padding: 80px 0 80px;
+	}
+
+	.home2 .swiper-container,
+	.home4 .swiper-container {
+		margin-top: 60px;
+	}
+
+
+
+	.home4 .swiper-slide .intr h2 {
+		font-size: 24px;
+	}
+
+	.home4 .swiper-slide .slide-wrap {
+		padding: 40px 0 50px;
+	}
+
+
+	.home4 .swiper-slide .pic img {
+		width: 60%;
+	}
+
+	.home4 .next,
+	.home4 .prev {
+		display: none;
+	}
+
+	.home2 .intr p {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width:768px) {
+
+	.C-h2-2 {
+		font-size: 36px;
+		line-height: 1.4;
+	}
+
+
+	.home2 .intr {
+		padding: 45px 30px;
+	}
+
+	.yellow-pagination .swiper-pagination-bullet {
+		width: 8px;
+		height: 8px;
+	}
+}
+
+@media screen and (max-width:480px) {
+
+
+	.C-h2-2 {
+		font-size: 26px;
+	}
+
+
+	.home2 .intr p {
+		font-size: 16px;
+	}
+}
