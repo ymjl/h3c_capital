@@ -83,7 +83,7 @@ Observing these expressions, except for wealth, **they all have a fundamental ch
 ## What is Soulbound Token?
 Soulbound tokens are a type of cryptocurrency that is closely associated with a user's identity and is non-transferable. The concept originated in January of this year, when Ethereum co-founder Vitalik Buterin published an article titled "Soulbound", referencing the concept of soulbinding from the online game World of Warcraft.
 
-This proposes a formula: SOUL = DID + SBT + Other On-Chain Assets.
+This proposes a formula: **SOUL = DID + SBT + Other On-Chain Assets**.
 This represents a person's description of the fully-on-chain world.
 
 ![sbt_did](/assets/images/post/Defining-a-Person's-Soul/sbt_did.png)
