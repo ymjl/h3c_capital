@@ -1,7 +1,7 @@
 ---
 title:  Defining a Person's Soul Attribute in the Metaverse as a Primary Objective
 layout: post
-post-image: "https://raw.githubusercontent.com/ymjl/h3c_capital/main/assets/images/post/Defining-a-Person's-Soul/head.jpg"
+post-image: "https://s2.loli.net/2022/12/12/o8kvCNDdUzJ2IsM.jpg"
 description: 
 tags:
 - SBT
