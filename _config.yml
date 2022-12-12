@@ -2,7 +2,7 @@
 markdown: kramdown
 
 # URL of the Site
-url: ''
+url: 'https://h3c.capital/'
 # Base URL of the Site (i.e., Name of the Repository in which the Site is hosted)
 baseurl: 
 
@@ -75,7 +75,7 @@ defaults:
       type: 'posts'
     values:
       layout: post
-      post-image: ""
+      post-image: ''
       description: ""
       tags:
         - ""
