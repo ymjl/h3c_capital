@@ -11,7 +11,7 @@ title: H3C Capital
 # Description of the Site
 description: Building and accelerating the future of Web 3.0
 # URL of Image of the Site
-site-image: /assets/images/meta1.jpg
+site-image: https://s2.loli.net/2022/12/12/2mtQv38iAL1zyWY.jpg #/assets/images/meta1.jpg
 # Keywords of the Site
 site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon 
@@ -20,7 +20,7 @@ favicon-url: /assets/images/favicon.png
 logo_white:  /assets/images/h3c_no_white.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: /assets/images/meta1.jpg
+heroimage: https://s2.loli.net/2022/12/12/2mtQv38iAL1zyWY.jpg #/assets/images/meta1.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
