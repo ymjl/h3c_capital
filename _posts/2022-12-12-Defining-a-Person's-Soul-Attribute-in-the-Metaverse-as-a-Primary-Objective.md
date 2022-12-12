@@ -38,7 +38,7 @@ In this application scenario, the focus is on simplifying the digital identity i
  
  ![goldfinch data](/assets/images/post/Defining-a-Person's-Soul/goldfinch.png)
 
- The protocol has an average daily income of $100,000 and an active loan amount of nearly $1 billion, enough to see the huge potential of the chain credit market.
+ The protocol has an average daily income of $100,000 and an active loan amount of nearly $100 million, enough to see the huge potential of the chain credit market.
 
 * Recruitment:
 Generate a chain resume to remove information discrepancies and quickly prove your ability to Web3.0 companies.
