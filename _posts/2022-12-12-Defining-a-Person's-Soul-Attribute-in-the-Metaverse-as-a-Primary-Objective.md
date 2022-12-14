@@ -1,7 +1,7 @@
 ---
 title:  Defining a Person's Soul Attribute in the Metaverse as a Primary Objective
 layout: post
-post-image: "https://s2.loli.net/2022/12/12/o8kvCNDdUzJ2IsM.jpg"
+post-image: "https://cdn.pixabay.com/photo/2020/07/14/18/05/head-5405117_960_720.png"
 description: 
 tags:
 - SBT
