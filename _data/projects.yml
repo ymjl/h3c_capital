@@ -1,38 +1,6 @@
 
- - name: AFK DAO
-   image: /assets/images/afkdao.jpg
-   link: https://afkdao.io/
-   description:
+#  - name: AFK DAO
+#    image: /assets/images/afkdao.jpg
+#    link: https://afkdao.io/
+#    description:
 
- - name: Algomint
-   image: /assets/images/algomint_log.png
-   link: https://algomint.io/
-   description:
-
- - name: ChainPort
-   image: /assets/images/ChainPort_dark_flat_version.png
-   link: https://www.chainport.io/
-   description: 
-
- - name: PumlX
-   image: /assets/images/pumlx.png
-   link: https://pumlx.com/
-   description: 
-
-
- - name: XDAO
-   image: /assets/images/xdao.png
-   link: https://www.xdao.app/
-   description: 
-
-
- - name: Releap
-   image: /assets/images/Releap_logo_black_white_bg.png
-   link: https://beta.releap.io/
-   description: 
-
-
- - name: Permacast
-   image: /assets/images/permacast.jpg
-   link: https://permacast.dev/
-   description: 
