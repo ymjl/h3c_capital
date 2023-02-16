@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>基金费用和投资人收益计算</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="fund_cost_and_return.js"></script>
+  </head>
+  <body>
+    <h1>基金费用和投资人收益计算</h1>
+    <form>
+      <label for="fund-size">基金规模：</label>
+      <input type="number" id="fund-size" value="10000000"><br><br>
+      <label for="step-size">基金收益率步长：</label>
+      <input type="number" id="step-size" step="0.01" min="0" max="0.5" value="0.01"><br><br>
+      <label for="baseline-return">基准收益率：</label>
+      <input type="number" id="baseline-return" step="0.01" min="0" max="1" value="0.6"><br><br>
+      <label for="management-fee-rate">管理费率：</label>
+      <input type="number" id="management-fee-rate" step="0.01" min="0" max="1" value="0.02"><br><br>
+      <button type="button" onclick="generatePlot()">生成图表</button>
+    </form>
+    <div id="plot"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
