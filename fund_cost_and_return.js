@@ -33,8 +33,8 @@ function generatePlot() {
 
   var performance_fees = return_rates.map(r => fund_size * performance_fee_rate(r));  // 绩效费用列表
 
-  var total_fees = performance_fees.map((p, i) => p + management_fees[i]);  // 总费用列表
-  var investor_returns = return_rates.map((r, i) => fund_size * r - total_fees[i]);  // 投资人收益列表
+  //var total_fees = performance_fees.map((p, i) => p + management_fees[i]);  // 总费用列表
+  var investor_returns = return_rates.map((r, i) => fund_size * r - performance_fees[i]);  // 投资人收益列表
  // var fund_returns = return_rates.map((r, i) => fund_size * r + management_fees[i] - investor_returns[i]); // 基金收益列表
 
   // 创建 DataFrame
