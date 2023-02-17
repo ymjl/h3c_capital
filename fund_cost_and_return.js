@@ -1,6 +1,7 @@
 function generatePlot() {
   // 获取输入参数
   var fund_size = document.getElementById('fund-size').value;
+  var profit = document.getElementById('profit').value;
   var step_size = document.getElementById('step-size').value;
   var baseline_return = document.getElementById('baseline-return').value;
   var management_fee_rate = document.getElementById('management-fee-rate').value;
@@ -24,7 +25,7 @@ function generatePlot() {
   }
 
   // 计算数据
-  var return_rates = Array.from(Array(Math.floor(6/step_size) - Math.floor(0/step_size)), (x, i) => (i + Math.floor(0/step_size)) * step_size); 
+  var return_rates = Array.from(Array(Math.floor(profit/step_size) - Math.floor(0/step_size)), (x, i) => (i + Math.floor(0/step_size)) * step_size); 
   
   var management_fees = Array(return_rates.length).fill(fund_size * management_fee_rate * 3);  // 管理费用列表
 
@@ -61,7 +62,7 @@ function generatePlot() {
     xaxis: {
       title: '基金收益率',
       tickformat: ',.0%',
-      range: [0, 6]
+      range: [0, profit]
     },
     yaxis: {
       title: '费用（美元）'
