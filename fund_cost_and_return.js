@@ -5,6 +5,8 @@ function generatePlot() {
   var step_size = document.getElementById('step-size').value;
   var baseline_return = document.getElementById('baseline-return').value;
   var management_fee_rate = document.getElementById('management-fee-rate').value;
+  var step_return_1 = document.getElementById('step-return-1').value;
+  var step_return_2 = document.getElementById('step-return-2').value;
   var performance_fee_rates = [
   parseFloat(document.getElementById('performance-fee-rate-1').value),
   parseFloat(document.getElementById('performance-fee-rate-2').value),
@@ -12,15 +14,15 @@ function generatePlot() {
   ]; 
   // 定义绩效费率函数
   function performance_fee_rate(return_rate) {
-    if (return_rate < 0.6) {
+    if (return_rate < baseline_return) {
       return 0;
-    } else if (return_rate < 2) {
+    } else if (return_rate < step_return_1) {
       return (return_rate - baseline_return) * performance_fee_rates[0];
-    } else if (return_rate < 4) {
-      return 1.4 * performance_fee_rates[0] + (return_rate - 2) * performance_fee_rates[1];
+    } else if (return_rate < step_return_2) {
+      return (step_return_1 - baseline_return) * performance_fee_rates[0] + (return_rate - 2) * performance_fee_rates[1];
     } else {
       
-      return (1.4 * performance_fee_rates[0] + 2 * performance_fee_rates[1] + (return_rate - 4)* performance_fee_rates[2]);
+      return ((step_return_1 - baseline_return) * performance_fee_rates[0] + step_return_1 * performance_fee_rates[1] + (return_rate - step_return_2)* performance_fee_rates[2]);
     }
   }
 

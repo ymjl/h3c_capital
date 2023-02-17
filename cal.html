@@ -17,9 +17,15 @@
       <input type="number" id="step-size" step="0.01" min="0" max="0.5" value="0.01"><br><br>
       <label for="baseline-return">基准收益率：</label>
       <input type="number" id="baseline-return" step="0.01" min="0" max="1" value="0.6"><br><br>
-      <label for="management-fee-rate">管理费率：</label>
-      <input type="number" id="management-fee-rate" step="0.01" min="0" max="1" value="0.02"><br><br>
+      <label for="management-fee-rate">阶梯收益率Ⅰ：</label>
+      <input type="number" id="step-return-1" step="0.01" min="0" max="1" value="2"><br><br>
 
+      <label for="management-fee-rate">阶梯收益率Ⅱ：</label>
+      <input type="number" id="step-return-2" step="0.01" min="0" max="1" value="4"><br><br>
+
+      <label for="management-fee-rate">管理费率（每年）：</label>
+      <input type="number" id="management-fee-rate" step="0.01" min="0" max="1" value="0.02"><br><br>
+      
       <!--内部参数-->
       <label for="performance-fee-rate-1">绩效费率(0.6~2)：</label>
       <input type="number" id="performance-fee-rate-1" step="0.01" min="0" max="1" value="0.25"><br><br>
