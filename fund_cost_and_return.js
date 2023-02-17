@@ -26,7 +26,7 @@ function generatePlot() {
   // 计算数据
   var return_rates = Array.from(Array(Math.floor(6/step_size) - Math.floor(0/step_size)), (x, i) => (i + Math.floor(0/step_size)) * step_size); 
   
-  var management_fees = Array(return_rates.length).fill(fund_size * management_fee_rate);  // 管理费用列表
+  var management_fees = Array(return_rates.length).fill(fund_size * management_fee_rate * 3);  // 管理费用列表
 
   var performance_fees = return_rates.map(r => fund_size * performance_fee_rate(r));  // 绩效费用列表
 
