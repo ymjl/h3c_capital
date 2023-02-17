@@ -28,7 +28,7 @@ function generatePlot() {
 
   // 创建 DataFrame
   var df = {
-    '基金规模': Array(return_rates.length).fill(fund_size),
+    '投资金额': Array(return_rates.length).fill(fund_size),
     '基金收益率': return_rates,
     '绩效费率': return_rates.map(r => performance_fee_rate(r)),
     '管理费率': Array(return_rates.length).fill(management_fee_rate),
