@@ -19,10 +19,10 @@ function generatePlot() {
     } else if (return_rate < step_return_1) {
       return (return_rate - baseline_return) * performance_fee_rates[0];
     } else if (return_rate < step_return_2) {
-      return (step_return_1 - baseline_return) * performance_fee_rates[0] + (return_rate - 2) * performance_fee_rates[1];
+      return (step_return_1 - baseline_return) * performance_fee_rates[0] + (return_rate - step_return_1) * performance_fee_rates[1];
     } else {
       
-      return ((step_return_1 - baseline_return) * performance_fee_rates[0] + step_return_1 * performance_fee_rates[1] + (return_rate - step_return_2)* performance_fee_rates[2]);
+      return ((step_return_1 - baseline_return) * performance_fee_rates[0] + (step_return_2 - step_return_1) * performance_fee_rates[1] + (return_rate - step_return_2)* performance_fee_rates[2]);
     }
   }
 
