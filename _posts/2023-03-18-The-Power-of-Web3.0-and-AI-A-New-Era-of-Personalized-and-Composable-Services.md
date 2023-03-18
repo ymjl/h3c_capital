@@ -1,5 +1,5 @@
 ---
-title:  The Power of Web3.0 and AI ':' A New Era of Personalized and Composable Services
+title:  The Power of Web3.0 and AI ：A New Era of Personalized and Composable Services
 layout: post
 post-image: "../assets/images/planet_white_black.png"
 description: 
