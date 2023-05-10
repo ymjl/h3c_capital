@@ -7,7 +7,7 @@ url:
 baseurl: 
 
 # Title of the Site
-title: H3C Capital
+title: Trantor Capital
 # Description of the Site
 description: Building and accelerating the future of Web 3.0
 # URL of Image of the Site
@@ -17,7 +17,7 @@ site-keywords: Site, Template, Theme
 # URL for the Image of custom Favicon 
 favicon-url: /assets/images/favicon.png
 
-logo_white:  /assets/images/h3c_no_white.png
+logo_white:  /assets/images/TRANTOR.png
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
 heroimage: https://s2.loli.net/2022/12/12/2mtQv38iAL1zyWY.jpg #/assets/images/meta1.jpg
@@ -40,14 +40,14 @@ spotify_username:
 google-analytics: G-0XY6D583JC
 
 # Disqus
-disqus-shortname: H3C Capital
+disqus-shortname: Trantor Capital
 
 # Name of the Author
-author-name: H3C Capital
+author-name: Trantor Capital
 # URL for the Image of the Author
 author-image: /assets/images/favicon.png
 # 60 Words About the Author
-author-about: H3C Capital is a venture firm that dedicates to the future of Web3. Our team invests in breakthrough ideas, ranging from Blockchain infrastructure to the Metaverse applications. We define ourself as a reliable partner to our portfolio companies, helping them course their way through Web3 world with funding, advising and partnership outreach.
+author-about: Trantor Capital is a venture firm that dedicates to the future of Web3. Our team invests in breakthrough ideas, ranging from Blockchain infrastructure to the Metaverse applications. We define ourself as a reliable partner to our portfolio companies, helping them course their way through Web3 world with funding, advising and partnership outreach.
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
 author-url: https://twitter.com/h3ccapital
 
